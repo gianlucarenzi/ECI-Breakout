@@ -271,8 +271,8 @@ L R_Small R1
 U 1 1 5CADBE87
 P 7800 2850
 F 0 "R1" H 7830 2870 50  0000 L CNN
-F 1 "330" H 7830 2810 50  0000 L CNN
-F 2 "Resistors_SMD:R_1210_HandSoldering" H 7800 2850 50  0001 C CNN
+F 1 "1.5K" H 7830 2810 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 7800 2850 50  0001 C CNN
 F 3 "" H 7800 2850 50  0000 C CNN
 	1    7800 2850
 	1    0    0    -1  
@@ -366,17 +366,6 @@ F 3 "" H 9100 2650 50  0001 C CNN
 	1    9100 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_02X07 P1
-U 1 1 5CADC0E2
-P 5600 2400
-F 0 "P1" H 5600 2800 50  0000 C CNN
-F 1 "CONN_02X07" V 5600 2400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 5600 1200 50  0000 C CNN
-F 3 "" H 5600 1200 50  0000 C CNN
-	1    5600 2400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4650 3450 4650 2700
 Wire Wire Line
@@ -431,8 +420,6 @@ Wire Wire Line
 	5900 3000 5900 2650
 Connection ~ 4500 4050
 Wire Wire Line
-	5900 2150 5900 2050
-Wire Wire Line
 	5900 2050 6500 2050
 Wire Wire Line
 	6500 2050 6500 3450
@@ -445,15 +432,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 2000 5800 2000
 Wire Wire Line
-	5800 2000 5800 2150
-Wire Wire Line
 	6450 3650 6600 3650
 Wire Wire Line
 	6600 3650 6600 1950
 Wire Wire Line
 	6600 1950 5700 1950
-Wire Wire Line
-	5700 1950 5700 2150
 Wire Wire Line
 	6450 3750 6650 3750
 Wire Wire Line
@@ -461,15 +444,11 @@ Wire Wire Line
 Wire Wire Line
 	6650 1900 5600 1900
 Wire Wire Line
-	5600 1900 5600 2150
-Wire Wire Line
 	6450 3850 6700 3850
 Wire Wire Line
 	6700 3850 6700 1850
 Wire Wire Line
 	6700 1850 5500 1850
-Wire Wire Line
-	5500 1850 5500 2150
 Wire Wire Line
 	6450 3950 6750 3950
 Wire Wire Line
@@ -477,12 +456,44 @@ Wire Wire Line
 Wire Wire Line
 	6750 1800 5400 1800
 Wire Wire Line
-	5400 1800 5400 2150
-Wire Wire Line
-	5300 2150 5300 1750
-Wire Wire Line
 	5300 1750 6800 1750
 Wire Wire Line
 	6800 1750 6800 4050
 Connection ~ 6600 4050
+$Comp
+L CONN_01X07 P1
+U 1 1 5CB38837
+P 5600 2300
+F 0 "P1" H 5600 2700 50  0000 C CNN
+F 1 "CONN_01X07" H 5400 1850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 5600 2300 50  0001 C CNN
+F 3 "" H 5600 2300 50  0000 C CNN
+	1    5600 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X07 P2
+U 1 1 5CB388A4
+P 5600 2450
+F 0 "P2" H 5600 2850 50  0000 C CNN
+F 1 "CONN_01X07" H 5300 2000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 5600 2450 50  0001 C CNN
+F 3 "" H 5600 2450 50  0000 C CNN
+	1    5600 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 2050 5900 2100
+Wire Wire Line
+	5800 2000 5800 2100
+Wire Wire Line
+	5700 1950 5700 2100
+Wire Wire Line
+	5600 1900 5600 2100
+Wire Wire Line
+	5500 1850 5500 2100
+Wire Wire Line
+	5400 1800 5400 2100
+Wire Wire Line
+	5300 1750 5300 2100
 $EndSCHEMATC

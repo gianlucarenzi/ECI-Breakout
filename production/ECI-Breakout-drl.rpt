@@ -1,0 +1,23 @@
+Drill report for /home/debian/Progetti/ATARI/ECI-Breakout/ECI-Breakout.kicad_pcb
+Created on Sun 14 Apr 2019 21:57:58 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ECI-Breakout.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (2 holes)
+    T2  1,02mm  0,040"  (14 holes)
+
+    Total plated holes count 16
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

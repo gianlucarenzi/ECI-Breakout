@@ -1,4 +1,4 @@
-update=mer 10 apr 2019 11:54:20 CEST
+update=Sun 14 Apr 2019 21:58:49 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -250,3 +250,13 @@ LibName218=/home/debian/packages/kicad/kicad-symbols/Triac_Thyristor
 LibName219=/home/debian/packages/kicad/kicad-symbols/Valve
 LibName220=/home/debian/packages/kicad/kicad-symbols/Video
 LibName221=/home/debian/Progetti/RetroBitLab-Library/AmigaComponents
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

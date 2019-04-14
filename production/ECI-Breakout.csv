@@ -1,0 +1,7 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D1";"LED_1206";1;"YELLOW";;;
+2;"ECI1";"ATARI-XE-ECI-SLOT";1;"ECIBUS";;;
+3;"R1";"R_1206_HandSoldering";1;"1.5K";;;
+4;"P1,P2";"Pin_Header_Straight_1x07";2;"CONN_01X07";;;
+5;"kicadlogo";"KiCad-Logo_5mm_SilkScreen";1;"KiCad-Logo_5mm_SilkScreen";;;
+6;"OSHW";"Symbol_OSHW-Logo_SilkScreen";1;"Symbol_OSHW-Logo_SilkScreen";;;
