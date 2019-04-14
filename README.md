@@ -4,7 +4,7 @@
 
 BreakOut Board for ECI Bus Connector Atari 130XE
 
-This is a simple cartridge breakout board, useful for many purposes developing hardware for Atari 8-bit line of computers
+This is a simple ECI Bus breakout board, useful for many purposes developing hardware for Atari 8-bit line of computers
 
 # Rendered Images
 # [![](images/ECI-Breakout-f.png "Board Front")](#features)
