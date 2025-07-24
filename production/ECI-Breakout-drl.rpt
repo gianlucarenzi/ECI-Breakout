@@ -7,11 +7,11 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'ECI-Breakout.drl' contains
+Drill file 'ECI-Breakout-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,40mm  0,016"  (2 holes)
-    T2  1,02mm  0,040"  (14 holes)
+    T1  0.40mm  0.016"  (2 holes)
+    T2  1.00mm  0.039"  (14 holes)
 
     Total plated holes count 16
 
